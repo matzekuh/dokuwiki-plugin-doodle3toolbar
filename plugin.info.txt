@@ -1,0 +1,7 @@
+base   doodle3toolbar
+author Matthias Jung
+email  matzekuh@web.de
+date   2016-02-01
+name   Doodle3 Toolbar Plugin
+desc   Toolbar Extension for doodle3
+url    https://www.dokuwiki.org/plugin:doodle3toolbar
