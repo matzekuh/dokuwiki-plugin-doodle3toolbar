@@ -11,9 +11,7 @@ class doodle3toolbar extends DokuWiki_Action_Plugin {
 	}
 	
 	function insert_button(& $event, $param) {
-		$template = file_get_contents('template.txt')
-		
-		if $template==false return;
+		$template = file_get_contents('template.txt');
 		
 		$event->data[] = array (
 		'type' => 'insert',
