@@ -6,11 +6,11 @@ class action_plugin_doodle3toolbar extends DokuWiki_Action_Plugin {
         /**
          * Register its handlers with the dokuwiki's event controller
          */
-        public function register(Doku_Event_Handler $controller) {
+        public function register(&$controller) {
                 $controller->register_hook('TOOLBAR_DEFINE', 'AFTER', $this, 'insert_button', array());
         }
 
-        public function insert_button(Doku_Event $event, $param) {
+        public function insert_button(&$event, $param) {
                 $event->data[] = array (
                 'type' => 'insert',
                 'title' => 'doodle3',
