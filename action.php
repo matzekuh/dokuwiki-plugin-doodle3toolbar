@@ -23,11 +23,13 @@ class action_plugin_doodle3toolbar extends DokuWiki_Action_Plugin {
          * Define a toolbar button, that inserts a text defined in the addon conf
          */
         public function insert_button(&$event, $param) {
+                $insertstring = '<doodle\n  title="TITEL AENDERN"\n  auth="'.$this->getConf('doodle3toolbar_default_auth').'"\n  adminUsers="testuser"\n  adminGroups="'.$this->getConf('doodle3toolbar_default_adminGroups').'"\n  voteType="'.$this->getConf('doodle3toolbar_default_voteType').'"\n  closed="false"\n>\n  * Option1\n  * Option2\n</doodle>';
+                
                 $event->data[] = array (
                 'type' => 'insert',
                 'title' => 'doodle3',
                 'icon' => '../../plugins/doodle3toolbar/icon.png',
-                'insert' => $this->getConf('inserttext')
+                'insert' => $insertstring
                 );
         }
 }
