@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Doodle Plugin 3: helps to schedule meetings
+ * Doodle Plugin 3 Toolbar: adds a toolbar button for easy use of the plugin doodle3
  *
  * @license	GPL 2 (http://www.gnu.org/licenses/gpl.html)
  * @url         http://www.dokuwiki.org/plugin:doodle3toolbar
