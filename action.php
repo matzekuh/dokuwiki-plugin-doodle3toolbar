@@ -4,8 +4,8 @@
  * Doodle Plugin 4 Toolbar: adds a toolbar button for easy use of the plugin doodle4
  *
  * @license	GPL 2 (http://www.gnu.org/licenses/gpl.html)
- * @url         http://www.dokuwiki.org/plugin:doodle3toolbar
- * @author	Matthias Jung <matzekuh@web.de>
+ * @url         http://www.dokuwiki.org/plugin:doodle4toolbar
+ * @author	Matthias Jung <matzekuh@web.de> derpeter <derpeter@c3voc.de>
  */
 
 if (!defined('DOKU_INC')) die();
