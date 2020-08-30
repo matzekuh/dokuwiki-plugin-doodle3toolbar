@@ -1,5 +1,5 @@
-# dokuwiki-plugin-doodle3toolbar
-Dokuwiki action plugin to provide a editor toolbar button for the doodle3 plugin
+# dokuwiki-plugin-doodle4toolbar
+Dokuwiki action plugin to provide a editor toolbar button for the doodle4 plugin
 
 Icons from http://www.famfamfam.com/lab/icons/silk/
 Created by Mark James
